@@ -26,6 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Adding internationalisation to our project
+
+- Enter the ng i18n command for adding internationalisation feature to our project
+- copy the auto generated html code in messages.xlf file and paste it in src/locale/messages.*required language*.xlf file (if not
+  existing create)
+- inside the .xlf file add your target text under the <source> tag inside <target></> tag
+
 ## Merge AOT with i18n for Internationalisation
 
 after applying these changes https://angular.io/guide/i18n#merge-with-the-aot-compiler 
